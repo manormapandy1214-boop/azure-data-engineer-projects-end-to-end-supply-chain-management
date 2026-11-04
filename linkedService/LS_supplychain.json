@@ -1,0 +1,10 @@
+{
+	"name": "LS_supplychain",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://supplychainproject.dfs.core.windows.net/"
+		}
+	}
+}
