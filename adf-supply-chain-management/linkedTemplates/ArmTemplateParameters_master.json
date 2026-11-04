@@ -1,0 +1,45 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-supply-chain-management"
+		},
+		"LS_PostgreSql1_source_password": {
+			"value": ""
+		},
+		"LS_seondsource_password": {
+			"value": ""
+		},
+		"LS_PostgreSql1_source_properties_typeProperties_server": {
+			"value": "ep-cool-mountain-arq2z75z-pooler.c-4.us-west-2.aws.neon.tech"
+		},
+		"LS_PostgreSql1_source_properties_typeProperties_database": {
+			"value": "neondb"
+		},
+		"LS_PostgreSql1_source_properties_typeProperties_username": {
+			"value": "neondb_owner"
+		},
+		"LS_seondsource_properties_typeProperties_server": {
+			"value": "DESKTOP-RI7M8G0\\SQLEXPRESS"
+		},
+		"LS_seondsource_properties_typeProperties_database": {
+			"value": "master"
+		},
+		"LS_seondsource_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"LS_supplychain_properties_typeProperties_url": {
+			"value": "https://supplychainproject.dfs.core.windows.net/"
+		},
+		"AzureKeyVault1_properties_typeProperties_baseUrl": {
+			"value": "https://supply-chain-keyvault1.vault.azure.net/"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
