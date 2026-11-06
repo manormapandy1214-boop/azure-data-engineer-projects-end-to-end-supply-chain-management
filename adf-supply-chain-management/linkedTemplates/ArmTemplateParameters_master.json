@@ -5,11 +5,17 @@
 		"factoryName": {
 			"value": "adf-supply-chain-management"
 		},
-		"LS_PostgreSql1_source_password": {
-			"value": ""
+		"AzureKeyVault1_properties_typeProperties_baseUrl": {
+			"value": "https://supply-chain-keyvault1.vault.azure.net/"
 		},
-		"LS_seondsource_password": {
-			"value": ""
+		"LS_AzureSqlDatabase_properties_typeProperties_server": {
+			"value": "supplychain-server.database.windows.net"
+		},
+		"LS_AzureSqlDatabase_properties_typeProperties_database": {
+			"value": "supply-chain-database"
+		},
+		"LS_AzureSqlDatabase_properties_typeProperties_userName": {
+			"value": "datamanu"
 		},
 		"LS_PostgreSql1_source_properties_typeProperties_server": {
 			"value": "ep-cool-mountain-arq2z75z-pooler.c-4.us-west-2.aws.neon.tech"
@@ -31,9 +37,6 @@
 		},
 		"LS_supplychain_properties_typeProperties_url": {
 			"value": "https://supplychainproject.dfs.core.windows.net/"
-		},
-		"AzureKeyVault1_properties_typeProperties_baseUrl": {
-			"value": "https://supply-chain-keyvault1.vault.azure.net/"
 		},
 		"containerUri": {
 			"value": ""
