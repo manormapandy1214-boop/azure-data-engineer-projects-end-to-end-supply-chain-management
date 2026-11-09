@@ -5,6 +5,9 @@
 		"factoryName": {
 			"value": "adf-supply-chain-management"
 		},
+		"LS_AzureDatabricks_accessToken": {
+			"value": ""
+		},
 		"AzureKeyVault1_properties_typeProperties_baseUrl": {
 			"value": "https://supply-chain-keyvault1.vault.azure.net/"
 		},
@@ -37,6 +40,9 @@
 		},
 		"LS_supplychain_properties_typeProperties_url": {
 			"value": "https://supplychainproject.dfs.core.windows.net/"
+		},
+		"LS_AzureDatabricks_properties_typeProperties_existingClusterId": {
+			"value": "1105-112020-srp3pr4r"
 		},
 		"containerUri": {
 			"value": ""
