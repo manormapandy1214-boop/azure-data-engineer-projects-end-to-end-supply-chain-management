@@ -11,6 +11,9 @@
 		"AzureKeyVault1_properties_typeProperties_baseUrl": {
 			"value": "https://supply-chain-keyvault1.vault.azure.net/"
 		},
+		"LS_AzureDatabricks_properties_typeProperties_existingClusterId": {
+			"value": "1105-112020-srp3pr4r"
+		},
 		"LS_AzureSqlDatabase_properties_typeProperties_server": {
 			"value": "supplychain-server.database.windows.net"
 		},
@@ -40,9 +43,6 @@
 		},
 		"LS_supplychain_properties_typeProperties_url": {
 			"value": "https://supplychainproject.dfs.core.windows.net/"
-		},
-		"LS_AzureDatabricks_properties_typeProperties_existingClusterId": {
-			"value": "1105-112020-srp3pr4r"
 		},
 		"containerUri": {
 			"value": ""
