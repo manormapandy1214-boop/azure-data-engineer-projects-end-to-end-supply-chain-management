@@ -407,7 +407,11 @@
 			},
 			"adf_run_id": {
 				"type": "string",
-				"defaultValue": "a1"
+				"defaultValue": "a6"
+			},
+			"source_system": {
+				"type": "string",
+				"defaultValue": "adls_csv"
 			}
 		},
 		"variables": {
